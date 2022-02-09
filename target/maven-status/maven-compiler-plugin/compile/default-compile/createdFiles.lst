@@ -1,0 +1,6 @@
+iss/day18_workshop_httprequest/model/WeatherModel.class
+iss/day18_workshop_httprequest/controllers/WeatherRestController.class
+iss/day18_workshop_httprequest/Day18HttprequestApplication.class
+iss/day18_workshop_httprequest/Constants.class
+iss/day18_workshop_httprequest/service/WeatherService.class
+iss/day18_workshop_httprequest/config/AppConfig.class
