@@ -1,0 +1,18 @@
+<h2>Weather: {{ city }}</h2>
+<table>
+  <tr>
+    <td>
+      <img src="{{weather?.icon}}" alt="">
+    </td>
+    <td>
+      <div>
+        Weather: {{ weather?.main }} {{ weather?.description }}
+      </div>
+      <div>
+        Temperature: {{ weather?.temperature | number : '1.0-2' }}
+      </div>
+    </td>
+  </tr>
+</table>
+
+<button type="button" routerLink = "/" >Back</button>
